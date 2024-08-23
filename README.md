@@ -1,7 +1,7 @@
 # MDU-E22E-ECOM
  Kodeeksempler fra E-COMMERCE holdet i efteråret 2024.
 
-## WP Playground
+## WP Playground med Networking
 
 Her er et link til WP Playground, hvor repositories og themes kan installeres, eller i WP lingo **"networking=yes"**:
 
