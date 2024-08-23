@@ -10,6 +10,6 @@ Her er et link til WP Playground, hvor repositories og themes kan installeres, e
 
  ## ./wp-playground
 
- Er den WordPress Playground med eksempler fra undervisningen. 
+ Er den WordPress Playground med eksempler fra undervisningen. Du kan bruge denne mappe, hvis du vil vide noget om de forskellige templates, og om opsætningen af en forside.
 
  * Theme: TT4
