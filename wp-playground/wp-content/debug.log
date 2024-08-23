@@ -1,0 +1,42 @@
+[22-Aug-2024 16:16:40 UTC] PHP Warning:  Undefined property: stdClass::$id in /wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 2
+[22-Aug-2024 16:16:40 UTC] PHP Warning:  Undefined property: stdClass::$post_parent in /wordpress/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 2
+[22-Aug-2024 16:22:05 UTC] PHP Warning:  Attempt to read property "ID" on null in /wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 2
+[22-Aug-2024 17:40:18 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Utils" not found in /wordpress/wp-content/plugins/elementor/core/logger/manager.php:41
+Stack trace:
+#0 [internal function]: Elementor\Core\Logger\Manager->shutdown()
+#1 {main}
+  thrown in /wordpress/wp-content/plugins/elementor/core/logger/manager.php on line 41
+[22-Aug-2024 19:17:09 UTC] PHP Warning:  Attempt to read property "ID" on null in /wordpress/wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php on line 2
+[23-Aug-2024 04:22:18 UTC] WordPress database error <div style="clear:both">&nbsp;</div>
+<div class="queries" style="clear:both;margin-bottom:2px;border:red dotted thin;">
+<p>MySQL query:</p>
+<p>SHOW TABLE STATUS</p>
+<p>Queries made or created this session were:</p>
+<ol>
+<li>Executing: BEGIN | (no parameters)</li>
+<li>Executing: ROLLBACK | (no parameters)</li>
+</ol>
+</div>
+<div style="clear:both;margin-bottom:2px;border:red dotted thin;" class="error_message" style="border-bottom:dotted blue thin;">
+Error occurred at line 4117 in Function <code>handle_error</code>. Error message was: Syntax error: Unexpected token  in query SHOW TABLE STATUS.
+</div>
+<p>Backtrace:</p>
+<pre>#0 /internal/shared/sqlite-database-integration/wp-includes/sqlite/class-wp-sqlite-db.php(287): WP_SQLite_Translator->get_error_message()
+#1 /wordpress/wp-includes/class-wpdb.php(3): WP_SQLite_DB->query('SHOW TABLE STAT...')
+#2 /wordpress/wp-admin/includes/class-wp-debug-data.php(3): wpdb->get_results('SHOW TABLE STAT...', 'ARRAY_A')
+#3 /wordpress/wp-admin/includes/class-wp-debug-data.php(3): WP_Debug_Data::get_database_size()
+#4 /wordpress/wp-includes/rest-api/endpoints/class-wp-rest-site-health-controller.php(2): WP_Debug_Data::get_sizes()
+#5 /wordpress/wp-includes/rest-api/class-wp-rest-server.php(3): WP_REST_Site_Health_Controller->get_directory_sizes(Object(WP_REST_Request))
+#6 /wordpress/wp-includes/rest-api/class-wp-rest-server.php(3): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/wp-site-health...', Array, NULL)
+#7 /wordpress/wp-includes/rest-api/class-wp-rest-server.php(3): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#8 /wordpress/wp-includes/rest-api.php(2): WP_REST_Server->serve_request('/wp-site-health...')
+#9 /wordpress/wp-includes/class-wp-hook.php(3): rest_api_loaded(Object(WP))
+#10 /wordpress/wp-includes/class-wp-hook.php(3): WP_Hook->apply_filters('', Array)
+#11 /wordpress/wp-includes/plugin.php(2): WP_Hook->do_action(Array)
+#12 /wordpress/wp-includes/class-wp.php(3): do_action_ref_array('parse_request', Array)
+#13 /wordpress/wp-includes/class-wp.php(3): WP->parse_request('')
+#14 /wordpress/wp-includes/functions.php(2): WP->main('')
+#15 /wordpress/wp-blog-header.php(2): wp()
+#16 /wordpress/index.php(2): require('/wordpress/wp-b...')
+#17 {main}</pre>
+ for query SHOW TABLE STATUS made by require('wp-blog-header.php'), wp, WP->main, WP->parse_request, do_action_ref_array('parse_request'), WP_Hook->do_action, WP_Hook->apply_filters, rest_api_loaded, WP_REST_Server->serve_request, WP_REST_Server->dispatch, WP_REST_Server->respond_to_request, WP_REST_Site_Health_Controller->get_directory_sizes, WP_Debug_Data::get_sizes, WP_Debug_Data::get_database_size, WP_SQLite_DB->query, WP_SQLite_DB->print_error
