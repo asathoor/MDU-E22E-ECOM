@@ -1,0 +1,63 @@
+2024-08-24T03:56:04+00:00 ERROR Error getting data feed
+2024-08-24T03:56:04+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => Missing header/body separator
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+2024-08-24T03:57:39+00:00 ERROR Error getting data feed
+2024-08-24T03:57:39+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => Missing header/body separator
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+2024-08-24T03:57:57+00:00 ERROR Error getting data feed
+2024-08-24T03:57:57+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => Missing header/body separator
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)

@@ -1,0 +1,1 @@
+[23-Aug-2024 16:42:16 UTC] PHP Deprecated:  Function print_emoji_styles is <strong>deprecated</strong> since version 6.4.0! Use wp_enqueue_emoji_styles instead. in /wordpress/wp-includes/functions.php on line 135
