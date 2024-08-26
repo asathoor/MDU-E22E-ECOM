@@ -7,9 +7,6 @@ Her er et link til WP Playground, hvor repositories og themes kan installeres, e
 
 * [Playground With Networking](https://playground.wordpress.net/?storage=device&networking=yes)
 
+## ./blueprint
 
- ## ./wp-playground
-
- Er den WordPress Playground med eksempler fra undervisningen. Du kan bruge denne mappe, hvis du vil vide noget om de forskellige templates, og om opsætningen af en forside.
-
- * Theme: TT4
+Mappen indeholder en JSON fil med nogle gode plugins til WP.
