@@ -11,7 +11,7 @@ Læs meget mere om Playground [her](https://wordpress.org/playground/)
 
 Sådan køres en playground med et blueprint:
 
-[https://playground.wordpress.net/#{"preferredVersions": {"php":"7.4", "wp":"5.9"}}](https://playground.wordpress.net/#{"preferredVersions": {"php":"7.4", "wp":"5.9"}})
+[Se urlen i din browser](https://playground.wordpress.net/#{"preferredVersions": {"php":"7.4", "wp":"5.9"}})
 
 ## ./blueprint
 
