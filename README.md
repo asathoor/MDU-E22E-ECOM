@@ -13,8 +13,7 @@ Sådan køres en playground med et blueprint i browseren:
 
 ~~~~~
 https://playground.wordpress.net/#{"preferredVersions": {"php":"7.4", "wp":"5.9"}}
-~~~~
-
+~~~~~
 
 ## ./blueprint
 
