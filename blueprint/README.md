@@ -23,3 +23,7 @@ Så en WordPress med mine plugins burde kunne installeres sådan:
 ~~~~ 
 https://playground.wordpress.net/#{ "landingPage": "/wp-admin/", "preferredVersions": { "php": "7.4", "wp": "5.9" }, "phpExtensionBundles": [ "kitchen-sink" ], "steps": [ { "step": "login", "username": "admin", "password": "password" }, { "step": "installPlugin", "pluginZipFile": { "resource": "wordpress.org\/plugins", "slug": "instant-images" }, "options": { "activate": true } }, { "step": "installPlugin", "pluginZipFile": { "resource": "wordpress.org\/plugins", "slug": "w3-total-cache" }, "options": { "activate": true } }, { "step": "installPlugin", "pluginZipFile": { "resource": "wordpress.org\/plugins", "slug": "wordpress-seo" }, "options": { "activate": false } }, { "step": "installPlugin", "pluginZipFile": { "resource": "wordpress.org\/plugins", "slug": "ewww-image-optimizer" }, "options": { "activate": true } }, { "step": "installPlugin", "pluginZipFile": { "resource": "wordpress.org\/plugins", "slug": "blocks-animation" }, "options": { "activate": true } }, { "step": "installPlugin", "pluginZipFile": { "resource": "wordpress.org\/plugins", "slug": "font-awesome" }, "options": { "activate": true } } ] }
 ~~~~ 
+
+## En bedre løsning
+
+**wp-now** er i praksis lettere at anvende og mere stabil.
