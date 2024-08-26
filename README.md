@@ -9,12 +9,6 @@ Her er et link til WP Playground, hvor repositories og themes kan installeres, e
 
 Læs meget mere om Playground [her](https://wordpress.org/playground/)
 
-Sådan køres en playground med et blueprint i browseren:
-
-~~~~~
-https://playground.wordpress.net/#{"preferredVersions": {"php":"7.4", "wp":"5.9"}}
-~~~~~
-
 ## ./blueprint
 
 Mappen indeholder en JSON fil med nogle gode plugins til WP.
