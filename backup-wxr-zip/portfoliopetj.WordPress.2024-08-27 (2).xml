@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.6.1" created="2024-08-27 10:58" -->
+	<!-- generator="WordPress/6.6.1" created="2024-08-27 11:09" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>Portfolio: PETJ</title>
 	<link>http://localhost:8881</link>
 	<description>Første projekt: E-Com</description>
-	<pubDate>Tue, 27 Aug 2024 10:58:59 +0000</pubDate>
+	<pubDate>Tue, 27 Aug 2024 11:09:18 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost:8881</wp:base_site_url>
@@ -1384,15 +1384,15 @@ Commenter avatars come from <a href="https://en.gravatar.com/" rel="nofollow ugc
 
 <!-- wp:cover {"url":"http://localhost:8881/wp-content/uploads/2024/08/DALL·E-2023-01-20-10.59.43-mona-lisa-using-a-typewriter-in-new-york.png","id":78,"hasParallax":true,"dimRatio":80,"overlayColor":"contrast","isUserOverlayColor":true,"tagName":"aside","align":"full","style":{"spacing":{"padding":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
 <aside class="wp-block-cover alignfull has-parallax" style="padding-top:0;padding-bottom:0"><span aria-hidden="true" class="wp-block-cover__background has-contrast-background-color has-background-dim-80 has-background-dim"></span><div class="wp-block-cover__image-background wp-image-78 has-parallax" style="background-position:50% 50%;background-image:url(http://localhost:8881/wp-content/uploads/2024/08/DALL·E-2023-01-20-10.59.43-mona-lisa-using-a-typewriter-in-new-york.png)"></div><div class="wp-block-cover__inner-container"><!-- wp:heading {"textAlign":"left","level":1,"className":"is-style-default","style":{"elements":{"link":{"color":{"text":"var:preset|color|accent-4"}}}},"textColor":"accent-4","fontSize":"x-large"} -->
-<h1 class="wp-block-heading has-text-align-left is-style-default has-accent-4-color has-text-color has-link-color has-x-large-font-size"><em><br></em>[icon name="user-astronaut" prefix="fas"] <em>Fra Style Tile til din version af et WordPress tema. Vi forbereder din online portfolio.</em></h1>
+<h1 class="wp-block-heading has-text-align-left is-style-default has-accent-4-color has-text-color has-link-color has-x-large-font-size"><em><br></em>[icon name="user-astronaut" prefix="fas"] <br><em>Fra Style Tile til din version af et WordPress tema. Vi forbereder din online portfolio.</em></h1>
 <!-- /wp:heading -->
 
 <!-- wp:spacer -->
 <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->
 
-<!-- wp:list {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}}},"textColor":"contrast-3"} -->
-<ul class="wp-block-list has-contrast-3-color has-text-color has-link-color"><!-- wp:list-item -->
+<!-- wp:list {"className":"is-style-checkmark-list","style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast-3"}}},"color":{"background":"#12121259"}},"textColor":"contrast-3"} -->
+<ul style="background-color:#12121259" class="wp-block-list is-style-checkmark-list has-contrast-3-color has-text-color has-background has-link-color"><!-- wp:list-item -->
 <li>[icon name="paint-roller" prefix="fas"] Fra Styletile til Tema - farver, fonte mv. til alle komponenter</li>
 <!-- /wp:list-item -->
 
@@ -1445,7 +1445,7 @@ Commenter avatars come from <a href="https://en.gravatar.com/" rel="nofollow ugc
 <!-- wp:query {"queryId":11,"query":{"perPage":10,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true}} -->
 <div class="wp-block-query"><!-- wp:post-template -->
 <!-- wp:group {"tagName":"article","layout":{"type":"flex","orientation":"vertical","justifyContent":"stretch"}} -->
-<article class="wp-block-group"><!-- wp:post-featured-image /-->
+<article class="wp-block-group"><!-- wp:post-featured-image {"isLink":true} /-->
 
 <!-- wp:post-title {"isLink":true,"fontSize":"large"} /-->
 
@@ -1499,8 +1499,8 @@ Commenter avatars come from <a href="https://en.gravatar.com/" rel="nofollow ugc
 		<wp:post_id>27</wp:post_id>
 		<wp:post_date><![CDATA[2024-08-26 12:12:19]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2024-08-26 12:12:19]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2024-08-27 10:57:01]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2024-08-27 10:57:01]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2024-08-27 11:06:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2024-08-27 11:06:33]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[front-page]]></wp:post_name>
@@ -2228,5 +2228,5 @@ Commenter avatars come from <a href="https://en.gravatar.com/" rel="nofollow ugc
 Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
 
 
-Served from: localhost:8881 @ 2024-08-27 10:58:59 by W3 Total Cache
+Served from: localhost:8881 @ 2024-08-27 11:09:18 by W3 Total Cache
 -->
