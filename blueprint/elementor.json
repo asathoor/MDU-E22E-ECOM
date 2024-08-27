@@ -1,0 +1,37 @@
+{
+    "landingPage": "/wp-admin/post.php?post=5&action=edit",
+    "preferredVersions": {
+        "php": "7.4",
+        "wp": "5.9"
+    },
+    "phpExtensionBundles": [
+        "kitchen-sink"
+    ],
+    "steps": [
+        {
+            "step": "login",
+            "username": "admin",
+            "password": "password"
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "wordpress.org\/plugins",
+                "slug": "gutenberg"
+            },
+            "options": {
+                "activate": true
+            }
+        },
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "wordpress.org\/plugins",
+                "slug": "elementor"
+            },
+            "options": {
+                "activate": true
+            }
+        }
+    ]
+}

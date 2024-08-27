@@ -1,0 +1,29 @@
+wp-now start
+
+Start the server
+
+Options:
+      --version         Show version number                            [boolean]
+      --path            Path to the PHP or WordPress project. Defaults to the cu
+                        rrent working directory.                        [string]
+      --php             PHP version to use.                             [string]
+      --wp              WordPress version to use: e.g. '--wp=6.2'       [string]
+      --port            Server port                                     [number]
+      --blueprint       Path to a blueprint file to be executed         [string]
+      --reset           Create a new project environment, destroying the old pro
+                        ject environment.                              [boolean]
+      --skip-browser    Do not launch the default browser
+                                                      [boolean] [default: false]
+      --inspect         Use Node debugging client.                      [number]
+      --inspect-brk     Use Node debugging client. Break immediately on script e
+                        xecution start.                                 [number]
+      --trace-exit      Prints a stack trace whenever an environment is exited p
+                        roactively, i.e. invoking process.exit().       [number]
+      --trace-uncaught  Print stack traces for uncaught exceptions; usually, the
+                         stack trace associated with the creation of an Error is
+                         printed, whereas this makes Node.js also print the stac
+                        k trace associated with throwing the value (which does n
+                        ot need to be an Error instance).               [number]
+      --trace-warnings  Print stack traces for process warnings (including depre
+                        cations).                                       [number]
+  -h, --help            Show help                                      [boolean]
