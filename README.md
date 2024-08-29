@@ -41,4 +41,6 @@ https://playground.wordpress.net/#{"landingPage":"/wp-admin/","preferredVersions
 
 ## En bedre løsning
 
-**wp-now** er i praksis lettere at anvende og mere stabil.
+**wp-now** er i praksis lettere at anvende og noget mere stabil. Hvis du ofte bruger Playground er en lokal installation via Node.js klart den bedste løsning.
+
+* [Installering af wp-now på Node.js](https://www.npmjs.com/package/@wp-now/wp-now) 
