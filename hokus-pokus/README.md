@@ -26,3 +26,42 @@ Er billedet, som vises i dit Kontrolpanel under temaerne. Du kan enten lave et s
 
 * Zip mappen hokuspokus.
 * Upload zip-filen via WP's Kontrolpanel
+
+## Temaets filer
+
+~~~~
+.
+├── README.md
+├── assets
+│   └── images
+│       ├── woman-curls.jpg
+│       ├── woman-headphones.jpg
+│       └── woman-tshirt.jpg
+├── functions.php
+├── index.php
+├── license.txt
+├── parts
+│   ├── footer.html
+│   └── header.html
+├── patterns
+│   ├── columns-with-images.php
+│   ├── comments.php
+│   ├── hidden-404.php
+│   ├── hidden-footer.php
+│   ├── hidden-post-meta.php
+│   └── query.php
+├── readme.txt
+├── screenshot.png
+├── style.css
+├── styles
+│   └── petj.json
+├── templates
+│   ├── 404.html
+│   ├── archive.html
+│   ├── index.html
+│   ├── no-title.html
+│   ├── page.html
+│   ├── search.html
+│   └── single.html
+└── theme.json
+~~~~
