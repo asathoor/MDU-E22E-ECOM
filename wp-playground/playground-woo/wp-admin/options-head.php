@@ -1,0 +1,2 @@
+<?php
+ $action = ! empty( $_REQUEST['action'] ) ? sanitize_text_field( $_REQUEST['action'] ) : ''; if ( isset( $_GET['updated'] ) && isset( $_GET['page'] ) ) { add_settings_error( 'general', 'settings_updated', __( 'Settings saved.' ), 'success' ); } settings_errors(); 
