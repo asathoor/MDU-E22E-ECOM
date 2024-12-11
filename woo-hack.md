@@ -22,7 +22,11 @@ Note that if you change your default values, your existing products' thumbnails,
 
 Official doc with further info https://woocommerce.com/document/image-sizes-theme-developers/#section-2 "
 
-## DuckDuckGo AI foreslår dette
+## Ideer fra DuckDuckGo AI
+
+Det følgende er fra en chat med DuckDuckGo AI:
+
+----
 
 To adjust the image size in WooCommerce using CSS, you can target the specific classes or IDs associated with the product images. Here are some common CSS rules you can use to modify the image size:
 
@@ -71,3 +75,4 @@ To adjust the image size in WooCommerce using CSS, you can target the specific c
 
 Feel free to adjust the width and height values according to your design needs!
 
+----
