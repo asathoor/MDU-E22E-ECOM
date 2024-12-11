@@ -24,7 +24,7 @@ Official doc with further info https://woocommerce.com/document/image-sizes-them
 
 ## Ideer fra DuckDuckGo AI
 
-Det følgende er fra en chat med DuckDuckGo AI:
+Det følgende er fra en chat med DuckDuckGo AI, der foreslår de følgende CSS hacks:
 
 ----
 
