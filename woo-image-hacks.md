@@ -22,7 +22,7 @@ Note that if you change your default values, your existing products' thumbnails,
 
 Official doc with further info https://woocommerce.com/document/image-sizes-theme-developers/#section-2 "
 
-## Ideer fra DuckDuckGo AI
+## Ideer fra DuckDuckGo AI.
 
 Det følgende er fra en chat med DuckDuckGo AI, der foreslår de følgende CSS hacks:
 
